@@ -1,0 +1,21 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "BPWGCC2XZT.com.dexinxu.mdd",
+        "paths": [
+          "/event/*",
+          "*"
+        ]
+      },
+      {
+        "appID": "BPWGCC2XZT.com.dexinxu.NextStop",
+        "paths": [
+          "/promo/*",
+          "*"
+        ]
+      }
+    ]
+  }
+}
