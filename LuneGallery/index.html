@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Luna Gallery 支持</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --page-bg: #f7f2ea;
+      --text: #221f1c;
+      --muted: #6b6259;
+      --border: #d8cec2;
+      --accent: #8c6f47;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --page-bg: #191715;
+        --text: #f2ece3;
+        --muted: #c0b5a9;
+        --border: #3a342e;
+        --accent: #d7b880;
+      }
+    }
+
+    body {
+      margin: 0;
+      background: var(--page-bg);
+      color: var(--text);
+      font: 16px/1.72 -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+    }
+
+    main {
+      width: min(720px, calc(100% - 40px));
+      margin: 0 auto;
+      padding: 64px 0;
+    }
+
+    h1 {
+      margin: 0 0 12px;
+      font-size: clamp(32px, 8vw, 52px);
+      line-height: 1.08;
+      font-weight: 700;
+    }
+
+    p {
+      margin: 0 0 18px;
+      color: var(--muted);
+    }
+
+    a {
+      color: var(--accent);
+      text-underline-offset: 4px;
+    }
+
+    .links {
+      display: grid;
+      gap: 12px;
+      margin-top: 32px;
+      padding-top: 28px;
+      border-top: 1px solid var(--border);
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Luna Gallery</h1>
+    <p>Luna Gallery 是一款本地照片相框与水印工具。导入、预览、加框、水印和保存到应用内画廊都在设备本地完成。</p>
+    <p>如果你遇到问题、希望反馈体验或提出功能建议，可以通过下方邮箱联系我们。</p>
+
+    <div class="links">
+      <a href="mailto:xdx_lab@126.com">支持邮箱：xdx_lab@126.com</a>
+      <a href="./privacy-policy/">隐私政策</a>
+    </div>
+  </main>
+</body>
+</html>

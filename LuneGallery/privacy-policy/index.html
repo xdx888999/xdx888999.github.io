@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Luna Gallery 隐私政策</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --page-bg: #f7f2ea;
+      --text: #221f1c;
+      --muted: #6b6259;
+      --border: #d8cec2;
+      --accent: #8c6f47;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --page-bg: #191715;
+        --text: #f2ece3;
+        --muted: #c0b5a9;
+        --border: #3a342e;
+        --accent: #d7b880;
+      }
+    }
+
+    body {
+      margin: 0;
+      background: var(--page-bg);
+      color: var(--text);
+      font: 16px/1.72 -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+    }
+
+    main {
+      width: min(760px, calc(100% - 40px));
+      margin: 0 auto;
+      padding: 56px 0 72px;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(30px, 7vw, 48px);
+      line-height: 1.12;
+    }
+
+    h2 {
+      margin: 34px 0 10px;
+      font-size: 20px;
+      line-height: 1.35;
+    }
+
+    p {
+      margin: 0 0 16px;
+    }
+
+    .updated {
+      color: var(--muted);
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 24px;
+      margin-bottom: 28px;
+    }
+
+    a {
+      color: var(--accent);
+      text-underline-offset: 4px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Luna Gallery 隐私政策</h1>
+    <p class="updated">更新日期：2026 年 6 月 12 日</p>
+
+    <p>Luna Gallery 是一款本地照片相框与水印工具。我们重视你的照片、文字和私人记忆。本政策说明 Luna Gallery 如何处理数据，以及你在使用应用时可能遇到的权限请求。</p>
+
+    <h2>核心原则</h2>
+    <p>Luna Gallery 不要求注册账号，不包含第三方广告 SDK，不追踪你的行为，也不会把你导入的照片上传到我们的服务器或任何第三方服务器。</p>
+    <p>应用的核心功能可以离线使用。导入、加框、水印、预览、保存到应用内画廊等处理过程都在设备本地完成。</p>
+
+    <h2>照片与本地数据</h2>
+    <p>当你主动从系统照片库选择照片时，Luna Gallery 会读取你选择的图片数据，用于生成预览、相框和水印效果。</p>
+    <p>当你确认保存到 Luna Gallery 后，应用会在本机应用数据目录中保存一份处理后的照片副本。你可以在应用内删除这些副本。删除应用内副本不会删除系统照片库中的原始照片。</p>
+    <p>Luna Gallery 不会扫描你的完整照片库，不会在后台读取未选择的照片，也不会把照片内容用于广告、画像、训练模型或第三方分析。</p>
+    <p>如果你的系统照片库启用了 iCloud 照片，系统照片服务可能会在你选择照片时从 iCloud 下载原图。这一过程由 Apple 的系统照片服务处理，不经过 Luna Gallery 的服务器。</p>
+
+    <h2>系统权限</h2>
+    <p>Luna Gallery 目前只请求“添加到照片”的权限。这个权限用于在你点击保存时，把带相框和水印的成品照片写入系统照片库。</p>
+    <p>应用不会请求定位、通讯录、麦克风、相机、蓝牙、本地网络、推送通知或广告追踪权限。</p>
+
+    <h2>反馈邮件</h2>
+    <p>如果你在应用内选择发送反馈，Luna Gallery 会调用系统邮件功能或打开 <code>mailto:</code> 邮件链接。邮件是否发送、发送账号、网络连接和邮件内容由你选择的邮件应用处理。</p>
+    <p>当你主动发送反馈邮件时，我们可能会收到你的邮箱地址、邮件正文，以及你主动填写的设备型号、系统版本或复现步骤。这些信息只用于处理反馈和改进问题，不会出售给第三方，也不会用于广告投放。</p>
+    <p>我们会尽量只保留处理问题所需的信息。若你希望我们删除此前通过邮件发送的反馈信息，可以通过下方邮箱联系我们。</p>
+
+    <h2>第三方服务</h2>
+    <p>Luna Gallery 的核心功能不接入第三方广告、统计、账号、云同步或图片上传服务。</p>
+    <p>本隐私政策托管在 GitHub Pages。访问该隐私政策网页时，GitHub 可能会按照其自身政策处理访问日志。这不涉及 Luna Gallery 应用内的照片数据。</p>
+
+    <h2>儿童隐私</h2>
+    <p>Luna Gallery 不面向儿童定向收集个人信息。如果你认为有儿童向我们发送了需要删除的反馈信息，请通过下方邮箱联系我们。</p>
+
+    <h2>数据安全</h2>
+    <p>Luna Gallery 使用系统提供的本地存储能力保存应用内照片副本。请注意，任何本地数据的安全性也取决于你的设备锁屏密码、系统版本、备份设置和 iCloud 照片设置。</p>
+
+    <h2>政策更新</h2>
+    <p>如果未来版本加入网络服务、账号、云同步、订阅、分析或其他数据处理能力，我们会在发布前更新本隐私政策，并在需要时补充相应授权说明。</p>
+
+    <h2>联系方式</h2>
+    <p>如果你对隐私政策或数据处理有疑问，可以发送邮件至：<a href="mailto:xdx_lab@126.com">xdx_lab@126.com</a></p>
+  </main>
+</body>
+</html>
