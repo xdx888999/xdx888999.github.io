@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tick 隐私政策</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --page-bg: #f5f4ee;
+      --text: #151513;
+      --muted: #67635a;
+      --border: #d9d5c9;
+      --accent: #2e7a50;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --page-bg: #11110f;
+        --text: #f2efe6;
+        --muted: #bbb4a7;
+        --border: #333027;
+        --accent: #7ed9a5;
+      }
+    }
+
+    body {
+      margin: 0;
+      background: var(--page-bg);
+      color: var(--text);
+      font: 16px/1.72 -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+    }
+
+    main {
+      width: min(760px, calc(100% - 40px));
+      margin: 0 auto;
+      padding: 56px 0 72px;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(30px, 7vw, 48px);
+      line-height: 1.12;
+      letter-spacing: 0;
+    }
+
+    h2 {
+      margin: 34px 0 10px;
+      font-size: 20px;
+      line-height: 1.35;
+      letter-spacing: 0;
+    }
+
+    p {
+      margin: 0 0 16px;
+    }
+
+    .updated {
+      color: var(--muted);
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 24px;
+      margin-bottom: 28px;
+    }
+
+    a {
+      color: var(--accent);
+      text-underline-offset: 4px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Tick 隐私政策</h1>
+    <p class="updated">更新日期：2026 年 6 月 20 日</p>
+
+    <p>Tick 是一款音乐播放工具，用拟物化的播放器界面管理 Apple Music、本地资料库和文件音乐。我们重视你的音乐资料、播放列表和设备隐私。本政策说明 Tick 如何处理数据，以及应用可能请求的系统权限。</p>
+
+    <h2>核心原则</h2>
+    <p>Tick 不要求注册账号，不包含第三方广告 SDK，不追踪你的行为，也不会把你的音乐文件、播放列表、封面图片或播放记录上传到我们运营的服务器。</p>
+    <p>Tick 的播放列表、已选择曲目、本地文件引用、内置封面匹配结果等数据会保存在你的设备本地，用于恢复应用状态和改善播放体验。</p>
+
+    <h2>Apple Music 与媒体资料库</h2>
+    <p>当你选择使用 Apple Music 或本地媒体资料库时，Tick 会请求系统媒体资料库权限。该权限用于搜索歌曲、读取你选择的曲目信息、建立播放队列和控制播放。</p>
+    <p>Apple Music 搜索、播放授权、曲目元数据、封面和播放能力由 Apple 的 MusicKit 与系统媒体服务提供。Tick 不会把这些数据转发给我们自己的服务器。</p>
+    <p>如果你未授权媒体资料库访问，Tick 会尽量只提供不依赖该权限的功能，例如从文件中选择本地音频。</p>
+
+    <h2>本地文件音乐</h2>
+    <p>当你主动从文件 App 或系统文件选择器导入音频时，Tick 会访问你选择的文件，用于加入播放列表和播放。Tick 不会扫描你未选择的文件夹，也不会在后台读取其它文件。</p>
+    <p>本地文件的名称、标识、播放队列位置和相关封面匹配信息可能会存储在设备本地，以便下次打开应用时继续使用。</p>
+
+    <h2>封面与内置图片</h2>
+    <p>对于没有封面的本地音乐，Tick 可能会从应用内置的抽象封面中选择一张作为显示图片。这些封面资源随应用安装在本地，不涉及网络上传或外部服务。</p>
+
+    <h2>系统权限</h2>
+    <p>Tick 可能请求媒体资料库权限，用于访问 Apple Music 与本地媒体资料库；也可能通过系统文件选择器访问你主动选择的音频文件。</p>
+    <p>Tick 不会请求定位、通讯录、相机、麦克风、蓝牙、本地网络、推送通知或广告追踪权限，除非未来版本的功能发生明确变化并在更新说明中告知。</p>
+
+    <h2>反馈邮件</h2>
+    <p>如果你通过邮件联系我们，我们可能会收到你的邮箱地址、邮件正文，以及你主动提供的设备型号、系统版本或问题复现步骤。这些信息只用于处理反馈和改进应用，不会出售给第三方，也不会用于广告投放。</p>
+    <p>如果你希望我们删除此前通过邮件发送的反馈信息，可以通过下方邮箱联系我们。</p>
+
+    <h2>第三方服务</h2>
+    <p>Tick 的音乐搜索、媒体资料库访问和播放功能依赖 Apple 提供的系统服务。你使用 Apple Music 或 iCloud 音乐资料库时，Apple 可能会按照其自身隐私政策处理相关数据。</p>
+    <p>本隐私政策托管在 GitHub Pages。访问该隐私政策网页时，GitHub 可能会按照其自身政策处理访问日志。这不涉及 Tick 应用内的音乐文件或播放列表数据。</p>
+
+    <h2>儿童隐私</h2>
+    <p>Tick 不面向儿童定向收集个人信息。如果你认为有儿童向我们发送了需要删除的反馈信息，请通过下方邮箱联系我们。</p>
+
+    <h2>数据安全</h2>
+    <p>Tick 使用系统提供的本地存储能力保存应用状态。请注意，本地数据的安全性也取决于你的设备锁屏密码、系统版本、备份设置和 Apple ID 安全设置。</p>
+
+    <h2>政策更新</h2>
+    <p>如果未来版本加入账号、云同步、订阅、分析、远程服务或其它数据处理能力，我们会在发布前更新本隐私政策，并在需要时补充相应授权说明。</p>
+
+    <h2>联系方式</h2>
+    <p>如果你对隐私政策或数据处理有疑问，可以发送邮件至：<a href="mailto:xdx_lab@126.com">xdx_lab@126.com</a></p>
+  </main>
+</body>
+</html>
