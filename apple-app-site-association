@@ -5,6 +5,9 @@
       {
         "appID": "BPWGCC2XZT.com.dexinxu.mdd",
         "paths": [
+          "NOT /xsfs-support/*",
+          "NOT /Tick/*",
+          "NOT /LuneGallery/*",
           "/event/*",
           "*"
         ]
@@ -12,6 +15,9 @@
       {
         "appID": "BPWGCC2XZT.com.dexinxu.NextStop",
         "paths": [
+          "NOT /xsfs-support/*",
+          "NOT /Tick/*",
+          "NOT /LuneGallery/*",
           "/promo/*",
           "*"
         ]
